@@ -1,3 +1,3 @@
-FROM hasura/graphql-engine:pull2395-7ea7f82c
+FROM hasura/graphql-engine:pull2392-5faf1a89
 
 CMD graphql-engine serve --server-port $PORT
